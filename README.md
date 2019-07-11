@@ -1,5 +1,10 @@
 # FTP Client
-[![Build Status](https://travis-ci.com/psu-agile-group/FTP-Client-Maven.svg?branch=master)](https://travis-ci.com/psu-agile-group/FTP-Client-Maven)
+[![Build Status](https://travis-ci.com/psu-agile-group/FTP-Client-Maven.svg?branch=master)](https://travis-ci.com/psu-agile-group/FTP-Client-Maven) 
+[![CircleCI](https://circleci.com/gh/psu-agile-group/FTP-Client-Maven.svg?style=svg)](https://circleci.com/gh/psu-agile-group/FTP-Client-Maven)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/psu-agile-group/FTP-Client-Maven/License)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![HitCount](http://hits.dwyl.io/ronniesong0809/psu-agile-group/FTP-Client-Maven.svg)](http://hits.dwyl.io/ronniesong0809/psu-agile-group/FTP-Client-Maven)
+
 
 A FTP (or File Transfer Protocol) client that is used for the transfer of computer files between a client and server on network by using JAVA and Apache Commons Net™ library.
 <!--project description-->
