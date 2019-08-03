@@ -35,7 +35,7 @@
         <artifactId>coveralls-maven-plugin</artifactId>
         <version>4.3.0</version>
         <configuration>
-          <repoToken>uk2lIDzgz4WQapHOUXW0TuJWrXszlMvGO</repoToken>
+          <repoToken>SpLQhGRutVlxKPP9vh8Au3mrtuesGYPkH</repoToken>
           <sourceEncoding>UTF-8</sourceEncoding>
         </configuration>
       </plugin>
@@ -43,6 +43,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.4</version>
         <executions>
           <execution>
             <id>prepare-agent</id>
@@ -86,6 +87,12 @@
       <artifactId>mockito-all</artifactId>
       <version>1.10.19</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.2.3</version>
     </dependency>
 
   </dependencies>
