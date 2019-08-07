@@ -1,7 +1,5 @@
 language: java
 sudo: false
-script: mvn clean verify
+script: mvn cobertura:cobertura
 after_success:
-  - mvn clean test
-  - mvn jacoco:report
-  - mvn coveralls:report
+  - bash <(curl -s https://codecov.io/bash)
